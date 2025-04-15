@@ -1,6 +1,6 @@
-name: "🛠️ Refactor"
-description: "리팩토링"
-labels: ["refactor"]
+name: '🛠️ Refactor'
+description: '리팩토링'
+labels: ['refactor']
 body:
   - type: textarea
     attributes:

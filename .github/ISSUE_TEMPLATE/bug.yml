@@ -1,6 +1,6 @@
-name: "🐞 Bug"
-description: "버그 리포트"
-labels: ["bug"]
+name: '🐞 Bug'
+description: '버그 리포트'
+labels: ['bug']
 body:
   - type: textarea
     attributes:
