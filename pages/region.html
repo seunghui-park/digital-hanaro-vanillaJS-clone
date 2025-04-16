@@ -22,6 +22,20 @@
         <button id="next" class="text-xl px-2">&gt;</button>
       </div>
     </div>
+    <div id="slider-wrapper" class="w-screen bg-[#2c2c2c] py-10 overflow-hidden">
+      <div class="relative flex justify-center">
+        <div id="slider-track" class="flex justify-center gap-6 transition-transform duration-500 ease-in-out"></div>
+      </div>
+      <div class="flex justify-center mt-6 gap-6">
+        <button id="slide-prev" class="w-10 h-10 border border-white rounded-full text-white text-xl flex items-center justify-center">
+          &larr;
+        </button>
+        <div id="pagination" class="flex gap-2"></div>
+        <button id="slide-next" class="w-10 h-10 border border-white rounded-full text-white text-xl flex items-center justify-center">
+          &rarr;
+        </button>
+      </div>
+    </div>
     <div id="footer"></div>
   </body>
 </html>
