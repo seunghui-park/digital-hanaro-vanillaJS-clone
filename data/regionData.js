@@ -33,7 +33,7 @@ const regionData = [
     address: '전북특별자치도 남원시 요천로 1447(천거동)',
     startDate: '2025-04-19',
     endDate: '2025-05-02',
-    image: 'festival4.jpg',
+    image: 'festival4.png',
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const regionData = [
     address: '대전광역시 서구 둔산대로 169(만년동)',
     startDate: '2025-04-22',
     endDate: '2025-04-29',
-    image: 'festival7.jpg',
+    image: 'festival7.JPG',
   },
   {
     id: 8,
@@ -123,7 +123,7 @@ const regionData = [
     address: '충청남도 태안군 소원면 천리포 1길 187',
     startDate: '2025-04-29',
     endDate: '2025-05-04',
-    image: 'festival14.jpg',
+    image: 'festival14.JPG',
   },
   {
     id: 15,
