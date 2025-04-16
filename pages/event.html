@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="../scripts/event.js" defer></script>
   </head>
-  <body>
+  <body class="flex flex-col min-h-screen">
     <div id="header"></div>
     <!-- 나머지 이벤트 페이지 내용 -->
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-30 hidden z-20"></div>
@@ -41,5 +41,6 @@
         <!-- 이벤트 리스트 영역 -->
         <div id="event-container" class="flex flex-col gap-8"></div>
       </section>
+    <div id="footer"></div>
   </body>
 </html>
