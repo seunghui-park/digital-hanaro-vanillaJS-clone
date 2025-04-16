@@ -5,10 +5,41 @@
     <title>이벤트</title>
     <script src="../scripts/common.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script type="module" src="../scripts/event.js" defer></script>
   </head>
   <body>
     <div id="header"></div>
     <!-- 나머지 이벤트 페이지 내용 -->
+    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-30 hidden z-20"></div>
+
+    <section class="max-w-4xl mx-auto px-4 py-10">
+        <!-- 제목 & 필터 버튼 -->
+        <div class="flex justify-between items-center mb-6">
+          <h2 class="text-3xl font-bold" id="event-title">#전체 이벤트</h2>
+          <div class="flex gap-2">
+            <button class="filter-btn px-4 py-2 rounded border" data-filter="전체">전체</button>
+            <button class="filter-btn px-4 py-2 rounded border bg-gray-800 text-white" data-filter="진행중">진행중</button>
+            <button class="filter-btn px-4 py-2 rounded border" data-filter="종료">종료</button>
+            <button class="filter-btn px-4 py-2 rounded border text-gray-400 cursor-not-allowed" disabled>당첨자 발표</button>
+          </div>
+        </div>
+      
+        <!-- 총 n건 + 정렬 -->
+        <div class="border-t border-gray-200 py-3 flex justify-between items-center text-l text-gray-700">
+        <div id="event-count" class="text-l text-gray-700">
+            총 <span class="text-blue-600 font-semibold">0</span>건
+        </div>              
+            <div class="flex items-center gap-3 text-l font-medium" id="sort-options">
+                <button class="sort-btn text-gray-400" data-sort="latest">최신순</button>
+                <button class="sort-btn text-gray-400" data-sort="popular">인기순</button>
+            <span class="text-gray-400 cursor-pointer text-xs">ⓘ</span>
+        </div>
+        </div>
+      
+        <div class="border-b border-gray-200 mb-6"></div>
+      
+        <!-- 이벤트 리스트 영역 -->
+        <div id="event-container" class="flex flex-col gap-8"></div>
+      </section>
   </body>
 </html>
