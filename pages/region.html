@@ -6,22 +6,50 @@
     <script src="../scripts/common.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="module" src="../scripts/region.js" defer></script>
+
+    <style>
+      #festivalList::-webkit-scrollbar {
+        display: none;
+      }
+      #festivalList {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+    
   </head>
   <body class="flex flex-col min-h-screen">
     <div id="header"></div>
     <div id="main" class="flex-grow px-4 py-6 max-w-7xl mx-auto">
-      <h2 class="text-2xl font-bold mb-6">전국 <span class="font-medium">축제 · 행사  어디까지 가봤니?</span></h2>
-
+      <h2 class="text-2xl font-bold mb-6">전국 <span class="font-medium">축제 · 행사 어디까지 가봤니?</span></h2>
+  
       <div class="flex justify-center mb-2">
         <div id="month-labels" class="flex gap-2 text-sm text-gray-600"></div>
       </div>
-
       <div class="flex items-center justify-center gap-2 mb-6">
         <button id="prev" class="text-xl px-2">&lt;</button>
         <div id="date-slider" class="flex gap-2 overflow-x-auto scroll-smooth"></div>
         <button id="next" class="text-xl px-2">&gt;</button>
       </div>
     </div>
+  
+    <div id="slider-wrapper" class="w-screen bg-[#2c2c2c] py-10 overflow-hidden">
+      <div class="relative flex justify-center">
+        <div id="festivalList" class="flex gap-[2rem] overflow-x-auto snap-x px-6 scroll-smooth"></div>
+      </div>
+  
+      <div class="flex justify-center mt-6 gap-6">
+        <button id="slide-prev" class="w-10 h-10 border border-white rounded-full text-white text-xl flex items-center justify-center">
+          &larr;
+        </button>
+        <button id="slide-next" class="w-10 h-10 border border-white rounded-full text-white text-xl flex items-center justify-center">
+          &rarr;
+        </button>
+      </div>
+    </div>
+  
     <div id="footer"></div>
   </body>
+  
+  
 </html>
