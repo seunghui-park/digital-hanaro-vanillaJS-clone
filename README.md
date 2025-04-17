@@ -7,36 +7,43 @@
 
 </br>
 
-## Git
+## 📑 Directory
 ```
 |-- index.html
 |-- pages
-|   |-- home.html
 |   |-- region.html
 |   |-- event.html
 |-- assets
 |   |-- images
-|   |   |-- (이미지 파일들)
+|   |   |-- event
+|   |   |-- footer
+|   |   |-- header
+|   |   |-- home
+|   |   |-- region
 |-- js
 |   |-- common.js
 |   |-- home.js
 |   |-- region.js
+|   |-- dateSlider.js
 |   |-- event.js
 |-- data
-|   |-- homeData.js
 |   |-- regionData.js
 |   |-- eventData.js
 ```
 
 </br>
 
-## Convention
+## 👥 Convention
+### 📌 eslint, prettier 설정을 통해 lint, format을 검사합니다.
 > # ⭐️ Commit Convention
-> * [#IssueNo|no-issue] type: subject
-> `'build', 'chore', 'ci', 'comment', 'design', 'docs', 'feat', 'fix', 'perf', 'refactor', 'remove', 'revert', 'style', 'test'`
+> * [#IssueNo|no-issue] type: subject <br>
+> `'build', 'chore', 'ci', 'comment', 'design', 'docs', 'feat', 'fix', 'perf', 'refactor', 'remove', 'revert', 'style', 'test'`<br>
+> ### 📌 husky, commitlint 설정을 통해 컨벤션에 맞지 않는 커밋을 차단합니다.
+<br>
 
 > # ⭐️ Branch Naming Convention
 > <img width="597" alt="image" src="https://github.com/user-attachments/assets/3c04a4a3-b50d-4209-8bbf-4c146b9c6342" />
+<br>
 
 > # ⭐️ Identifier Naming Convention
 > * 변수, 함수, 메서드 :
@@ -64,9 +71,17 @@ https://korean.visitkorea.or.kr/main/main.do
 <div style="display: flex; align-items: flex-start;">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&logoColor=white" alt="icon" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> 
    <img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=Javascript&logoColor=black">
 </div>
 
+## Pages
+> ### 지역 페이지
+![Image](https://github.com/user-attachments/assets/65f85295-839a-4928-8182-3571d56b8405)
+<br>
+
+> ### 이벤트 페이지
+![Image](https://github.com/user-attachments/assets/9294b335-a09e-481b-abe1-805dffe3ec95)
 
 <br/>
 
