@@ -55,6 +55,19 @@
 > * 상수 :
 > `ex. DAYS_UNTIL_TOMORROW`
 
+<br>
+
+## Git
+1. 기본 브랜치: main (배포 목적이 아니기에 develop 브랜치는 사용하지 않음)
+
+2. 기능별 브랜치 전략 사용
+예: add/region-festival-slider-19, add/footer-10, add/event-list-11 등
+| 작업 이슈 번호를 prefix로 씀 (#19, #17 등)
++ GitHub Flow & Feature Branch Strategy
+
+3. Merge : Pull Request를 통한 병합 사용, 커밋 로그 관리를 위해 Squash and Merge 사용
+
+
 </br>
 
 ## Clone Site
