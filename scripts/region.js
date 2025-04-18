@@ -120,26 +120,8 @@ function renderDateSlider() {
 }
 
 function renderFestivalCards(dateStr) {
-  console.log('Selected date:', dateStr);
-
   const selected = new Date(dateStr);
-  console.log('Selected date object:', selected);
 
-  regionData.forEach((event) => {
-    const start = stripTime(new Date(event.startDate));
-    const end = stripTime(new Date(event.endDate));
-    console.log(
-      `${event.title}: ${event.startDate} ~ ${event.endDate}`,
-      `Start:`,
-      start,
-      `End:`,
-      end,
-      `Is in range:`,
-      selected >= start && selected <= end,
-    );
-  });
-
-  // 기존 필터링 코드
   const events = regionData.filter((event) => {
     const start = stripTime(new Date(event.startDate));
     const end = stripTime(new Date(event.endDate));
