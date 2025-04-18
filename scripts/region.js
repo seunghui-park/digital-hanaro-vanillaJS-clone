@@ -125,6 +125,7 @@ function renderFestivalCards(dateStr) {
   const events = regionData.filter((event) => {
     const start = stripTime(new Date(event.startDate));
     const end = stripTime(new Date(event.endDate));
+    end.setHours(23, 59, 59, 999);
     return selected >= start && selected <= end;
   });
 
