@@ -2,7 +2,7 @@ const eventData = [
   {
     id: 1,
     title: '오디 이벤트! 드라마&영화 속 명소 이야기 재생 이벤트',
-    period: '2025. 4. 10. ~ 2025. 4. 23.',
+    period: '2025. 4. 10. ~ 2025. 4. 18.',
     image: 'event1.png',
     likes: 60,
   },
