@@ -20,7 +20,7 @@
 |   |   |-- header
 |   |   |-- home
 |   |   |-- region
-|-- js
+|-- scripts
 |   |-- common.js
 |   |-- home.js
 |   |-- region.js
