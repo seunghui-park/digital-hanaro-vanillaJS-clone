@@ -1,13 +1,13 @@
 # Introduction
 
-🏦 디지털 하나로 6기 '대한민국 구석구석' 사이트 클론 코딩 저장소입니다.
+🏦 디지털 하나로 6기 '대한민국 구석구석' 사이트 클론 코딩 과제 저장소입니다.
 <p align="middle" >
-  <img width="600" alt="image" src="https://github.com/user-attachments/assets/31c20123-5704-422a-8a9f-cbe778cfd477" />
+  <img width="400" alt="image" src="https://github.com/user-attachments/assets/31c20123-5704-422a-8a9f-cbe778cfd477" />
 </p>
 
 </br>
 
-## 📑 Directory
+## 1. 📑 Directory
 ```
 |-- index.html
 |-- pages
@@ -33,19 +33,19 @@
 
 </br>
 
-## 👥 Convention
+## 2. 👥 Convention
 ### 📌 eslint, prettier 설정을 통해 lint, format을 검사합니다.
-> # ⭐️ Commit Convention
+> ### ⭐️ Commit Convention
 > * [#IssueNo|no-issue] type: subject <br>
 > `'build', 'chore', 'ci', 'comment', 'design', 'docs', 'feat', 'fix', 'perf', 'refactor', 'remove', 'revert', 'style', 'test'`<br>
 > ### 📌 husky, commitlint 설정을 통해 컨벤션에 맞지 않는 커밋을 차단합니다.
 <br>
 
-> # ⭐️ Branch Naming Convention
-> <img width="597" alt="image" src="https://github.com/user-attachments/assets/3c04a4a3-b50d-4209-8bbf-4c146b9c6342" />
+> ### ⭐️ Branch Naming Convention
+> <img width="400" alt="image" src="https://github.com/user-attachments/assets/3c04a4a3-b50d-4209-8bbf-4c146b9c6342" />
 <br>
 
-> # ⭐️ Identifier Naming Convention
+> ### ⭐️ Identifier Naming Convention
 > * 변수, 함수, 메서드 :
 > `camelCase`
 > * 불리언 :
@@ -57,7 +57,7 @@
 
 <br>
 
-## Git
+## 3. 🛠️ Git
 1. 기본 브랜치: main (배포 목적이 아니기에 develop 브랜치는 사용하지 않음)
 
 2. 기능별 브랜치 전략 사용
@@ -70,12 +70,12 @@
 
 </br>
 
-## Clone Site
+## 4. 🌐 Clone Site
 https://korean.visitkorea.or.kr/main/main.do
 
 </br>
 
-## Tech Stack
+## 5. 👩🏻‍💻 Tech Stack
 
 <div style="display: flex; align-items: flex-start;">
    <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" /></div>
@@ -88,12 +88,16 @@ https://korean.visitkorea.or.kr/main/main.do
    <img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=Javascript&logoColor=black">
 </div>
 
-## Pages
-> ### 지역 페이지
+## 6. 📝 Pages
+> ### 1) 홈(index)페이지
+![Image](https://github.com/user-attachments/assets/808251f1-381a-435f-b7db-473e0e1bd86a)
+<br>
+
+> ### 2) 지역 페이지
 ![Image](https://github.com/user-attachments/assets/65f85295-839a-4928-8182-3571d56b8405)
 <br>
 
-> ### 이벤트 페이지
+> ### 3) 이벤트 페이지
 ![Image](https://github.com/user-attachments/assets/9294b335-a09e-481b-abe1-805dffe3ec95)
 
 <br/>
