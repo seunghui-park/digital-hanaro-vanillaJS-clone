@@ -15,6 +15,7 @@ const enrichedData = eventData.map((event) => {
   const [startStr, endStr] = event.period.split(' ~ ');
   const startDate = new Date(startStr.replace(/\./g, '-'));
   const endDate = new Date(endStr.replace(/\./g, '-'));
+  endDate.setHours(23, 59, 59, 999);
   const status = startDate <= today && today <= endDate ? '진행중' : '종료';
   return { ...event, status };
 });
