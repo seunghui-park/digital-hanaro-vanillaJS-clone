@@ -9,31 +9,14 @@
   </head>
   <body class="flex flex-col min-h-screen">
     <div id="header"></div>
+
+    <!-- 슬라이더 영역 -->
     <div class="flex-grow text-center">
       <div class="w-[900px] overflow-hidden mx-auto">
         <div
-          class="flex transition-transform"
           id="sliderTrack"
-          style="transform: translateX(0px)"
+          class="flex transition-transform duration-300 ease-in-out"
         >
-          <!-- 이미지 4장 × 2세트 = 8장 -->
-          <img
-            src="./assets/images/home/home_1.png"
-            class="w-[300px] h-[400px] object-contain shrink-0 px-[10px]"
-          />
-          <img
-            src="./assets/images/home/home_2.png"
-            class="w-[300px] h-[400px] object-contain shrink-0 px-[10px]"
-          />
-          <img
-            src="./assets/images/home/home_3.png"
-            class="w-[300px] h-[400px] object-contain shrink-0 px-[10px]"
-          />
-          <img
-            src="./assets/images/home/home_4.png"
-            class="w-[300px] h-[400px] object-contain shrink-0 px-[10px]"
-          />
-
           <img
             src="./assets/images/home/home_1.png"
             class="w-[300px] h-[400px] object-contain shrink-0 px-[10px]"
@@ -53,16 +36,33 @@
         </div>
       </div>
 
+      <!-- 슬라이더 컨트롤 -->
       <div class="flex justify-center items-center mt-4 gap-5 text-lg">
         <div id="sliderIndex">01 / 04</div>
+
+        <button
+          id="prevBtn"
+          class="px-2 py-1 hover:bg-gray-200 rounded transition cursor-pointer"
+        >
+          ⬅️
+        </button>
+
         <button
           id="toggleBtn"
-          class="bg-white text-black px-4 py-1 rounded hover:bg-gray-200 transition"
+          class="bg-white text-black px-4 py-1 rounded hover:bg-gray-200 transition cursor-pointer"
         >
           ⏸️
         </button>
+
+        <button
+          id="nextBtn"
+          class="px-2 py-1 hover:bg-gray-200 rounded transition cursor-pointer"
+        >
+          ➡️
+        </button>
       </div>
     </div>
+
     <div id="footer"></div>
     <script src="./scripts/home.js"></script>
   </body>
